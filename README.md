@@ -70,3 +70,11 @@ Para satisfacer las necesidades del usuario final el software debe cumplir con:
 ---
 
 ## 7. Plan de proyecto
+
+### Cronograma de actividades
+
+![Diagrama de Gantt](imagenes/cronograma.jpg)
+
+### Presupuesto del proyecto
+
+El presupuesto de este proyecto, teniendo en cuenta que el salario mínimo legal vigente en Colombia es de $1.423.500 y que el valor de la hora es de $6.189. Si cada estudiante invierte 50 horas de trabajo, a cada uno se le pagará $309.450. Entonces, el presupuesto toal del proyecto será de **$928.350**
