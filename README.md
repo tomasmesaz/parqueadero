@@ -79,7 +79,7 @@ Para satisfacer las necesidades del usuario final el software debe cumplir con:
 
 El presupuesto de este proyecto, teniendo en cuenta que el salario mínimo legal vigente en Colombia es de $1.423.500 y que el valor de la hora es de $6.189. Si el grupo estudiante invierte 50 horas de trabajo el presupuesto total será de $309.450. A continuación se hace un desglose por actividad:
 
-| Actividad                                 | Horas estimadas | Costo (COP)    |
+| Actividad                                 | Horas estimadas | Costo    |
 |------------------------------------------|------------------|----------------|
 | Reunión inicial y redacción de actas     | 3 h              | $18.567        |
 | Planificación incial del proyecto y primera entrega  | 6 h              | $37.134        |
