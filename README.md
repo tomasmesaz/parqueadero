@@ -1,10 +1,12 @@
 ## UdeA Ipark
 
+![Vista previa del sistema](imagenes/foto.png)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/tomasmesaz/parqueadero">UdeA Ipark</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/tomasmesaz">Tomás Mesa, Sebastián Ríos, Rebeca Rodríguez</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
 
-**UdeA Ipark** es un aplicativo de gestión de parqueadero que se plantea como un proyecto integral que abarca desde la evaluación de requisitos hasta la implementación final del sistema. Se llevará a cabo un análisis de las necesidades operativas y administrativas del parqueadero, seguido de la fase de diseño y codificación en Python. El resultado será un programa eficiente y fácil de usar.
+Este es un aplicativo de gestión de parqueadero que se plantea como un proyecto integral que abarca desde la evaluación de requisitos hasta la implementación final del sistema. Se llevará a cabo un análisis de las necesidades operativas y administrativas del parqueadero, seguido de la fase de diseño y codificación en Python. El resultado será un programa eficiente y fácil de usar.
 
---
+---
 
 ## ¿Quiénes somos?
 
