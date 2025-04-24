@@ -69,7 +69,7 @@ Para satisfacer las necesidades del usuario final el software debe cumplir con:
 
 ---
 
-## 7. Plan de proyecto
+## Plan de proyecto
 
 ### Cronograma de actividades
 
