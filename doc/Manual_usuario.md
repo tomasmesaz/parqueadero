@@ -169,6 +169,7 @@ Al seleccionar la opción 5 en el menú del administrador, el sistema muestra el
 Al seleccionar la opción 6 en el menú del administrador, el sistema muestra la lista completa de usuarios registrados en el parqueadero, junto con su número de documento, nombre completo, placa del vehículo y estado actual (en parqueadero, retirado o solo registrado). 
 
 Al seleccionar la opción 7 en el menú del administrador, el sistema muestra los datos del vehículo con mayor y menor tiempo de parqueo. Para cada caso, se informa la placa, el tiempo total de permanencia, la fecha y hora de ingreso y salida.
+<img width="278" height="66" alt="image" src="https://github.com/user-attachments/assets/cb1929aa-3846-4e08-adf9-8871d760ab76" />
 
 Al seleccionar la opción 8 en el menú del administrador, el sistema finaliza la sesión administrativa y retorna al menú principal de UdeA iPark.
 
