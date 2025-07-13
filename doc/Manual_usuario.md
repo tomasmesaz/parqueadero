@@ -95,6 +95,7 @@ Para completar el registro correctamente, asegúrese de:
 Si alguno de los datos no cumple con los requisitos, el sistema mostrará un mensaje de error y deberá volver a intentarlo.
 
 Una vez el registro sea exitoso, podrá proceder con el ingreso del vehículo.
+
 ![Validación de registro](../imagenes/validacion%20registro.png)
 
 
