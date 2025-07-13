@@ -146,13 +146,19 @@ Presione la tecla Enter para salir de este módulo y volver al menú principal.
 
 Al seleccionar la opción 4 en el menú principal, se accede al módulo de Administrador. El sistema le solicitará un nombre de usuario y una contraseña.
 
+![Panel de administrador](../imagenes/Panel%20de%20administrador.png)
+
 Si los datos ingresados son válidos, se mostrará un menú exclusivo con funciones de consulta para la gestión del parqueadero.
 
 Seleccione la opción deseada según su consulta.
 
 Al seleccionar la opción 1 en el menú del administrador, el sistema muestra el total de vehículos registrados en hasta el momento.
 
+![Opción 1 - Total de vehículos registrados](../imagenes/Opcion%201%20administrador.png)
+
 Al seleccionar la opción 2 en el menú del administrador, el sistema muestra el total de vehículos retirados del parqueadero.
+
+![Opción 2 - Total de vehículos retirados](../imagenes/Opcion%202%20administrador.png)
 
 Al seleccionar la opción 3 en el menú del administrador, el sistema muestra el total de vehículos que aún no han sido retirados del parqueadero. 
 
