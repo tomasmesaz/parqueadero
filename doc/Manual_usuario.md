@@ -162,9 +162,15 @@ Al seleccionar la opción 2 en el menú del administrador, el sistema muestra el
 
 Al seleccionar la opción 3 en el menú del administrador, el sistema muestra el total de vehículos que aún no han sido retirados del parqueadero. 
 
+![Opción 3 - Total de vehículos sin retirar](../imagenes/Opcion%203%20administrador.png)
+
 Al seleccionar la opción 4 en el menú del administrador, el sistema muestra el total de dinero recaudado por concepto de parqueo, así como el número de pagos procesados.
 
+![Opción 4 - Total recaudado por vehículos retirados](../imagenes/Opcion%204%20administrador.png)
+
 Al seleccionar la opción 5 en el menú del administrador, el sistema muestra el tiempo promedio de estancia de los vehículos en el parqueadero, calculado a partir de los registros de ingreso y retiro.
+
+![Opción 5 - Tiempo promedio de estancia por vehículo](../imagenes/Opcion%205%20administrador.png)
 
 Al seleccionar la opción 6 en el menú del administrador, el sistema muestra la lista completa de usuarios registrados en el parqueadero, junto con su número de documento, nombre completo, placa del vehículo y estado actual (en parqueadero, retirado o solo registrado). 
 
