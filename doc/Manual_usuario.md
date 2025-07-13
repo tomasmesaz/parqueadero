@@ -85,7 +85,7 @@ Al seleccionar la opción 1 en el menú principal, se ingresa al módulo de Regi
 - Documento de identidad
 - Placa del vehículo
 
-  
+![Registro de vehículo](../imagenes/Registro%20de%20vehiculo.png)
 
 Para completar el registro correctamente, asegúrese de:
 - Ingresar un nombre y apellido con al menos tres letras, sin números ni símbolos.
@@ -95,6 +95,8 @@ Para completar el registro correctamente, asegúrese de:
 Si alguno de los datos no cumple con los requisitos, el sistema mostrará un mensaje de error y deberá volver a intentarlo.
 
 Una vez el registro sea exitoso, podrá proceder con el ingreso del vehículo.
+![Validación de registro](../imagenes/validacion%20registro.png)
+
 
 Presione la tecla Enter para salir de este módulo y volver al menú principal.
 
