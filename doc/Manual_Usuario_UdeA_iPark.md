@@ -1,11 +1,11 @@
 
-# Manual de Usuario - UdeA iPark 🚗
+# Manual de Usuario - UdeA iPark 
 
 Sistema de gestión de parqueadero
 
 ---
 
-## 📌 Control de versiones
+## Control de versiones
 
 | Versión | Fecha             | Descripción       | Responsable(s)                      |
 |---------|-------------------|-------------------|--------------------------------------|
@@ -13,7 +13,7 @@ Sistema de gestión de parqueadero
 
 ---
 
-## 📚 Contenido
+## Contenido
 
 1. [Introducción](#1-introducción)
 2. [Funciones y utilización del sistema](#2-funciones-y-utilización-del-sistema)
