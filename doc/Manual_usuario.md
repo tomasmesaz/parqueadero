@@ -64,6 +64,8 @@ Este programa utiliza únicamente librerías estándar de Python, por lo tanto, 
 El sistema está alojado en GitHub. Puedes clonar o descargar el repositorio desde el siguiente enlace: [GitHub - tomasmesaz/parqueadero](https://github.com/tomasmesaz/parqueadero)
 
 ### 2.2 Mapa de navegación
+
+![Vista previa del sistema](../imagenes/Menu.png)
 La pantalla principal del sistema, muestra el menú de inicio desde donde el usuario puede acceder a todas las funcionalidades del programa mediante un menú numérico interactivo. Cada opción representa un módulo específico del sistema:
 
 1. Registro de nuevos usuarios  
