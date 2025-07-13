@@ -158,11 +158,46 @@ Finalmente, presione la tecla Enter para continuar o regresar al menú principal
 
 ### 3.1 Solución de problemas
 
-Consulta la tabla de errores en el PDF original para mensajes comunes como:
+#### 🔹 Módulo 1: Registrar usuario
 
-- `"Error, el nombre es muy corto"` → Usa mínimo 3 letras  
-- `"El documento ya está registrado"` → Usa un número no duplicado  
-- `"El parqueadero está lleno"` → Espera que haya un espacio disponible  
-- `"Usuario o contraseña incorrectos"` → Verifica las credenciales
+| Mensaje de error | Razón | Solución sugerida |
+|------------------|-------|-------------------|
+| Error, el nombre es muy corto | El nombre tiene menos de 3 letras | Escriba un nombre con mínimo 3 letras |
+| Error, el nombre no debe contener números ni caracteres especiales | El nombre contiene símbolos o números | Ingrese solo letras |
+| Error, el nombre no es correcto | El valor ingresado no es texto válido | Asegúrese de digitar un texto válido como nombre |
+| Error, el apellido es muy corto | El apellido tiene menos de 3 letras | Escriba un apellido con mínimo 3 letras |
+| Error, el apellido no debe contener números ni caracteres especiales | El apellido contiene símbolos o números | Ingrese solo letras |
+| Error, el apellido no es correcto | El valor ingresado no es texto válido | Asegúrese de digitar un texto válido como apellido |
+| Error, el documento es muy corto o muy largo | El documento tiene menos de 3 o más de 15 caracteres | Ingrese un número de documento entre 3 y 15 dígitos |
+| Error, el documento sólo permite números | El documento contiene letras o símbolos | Ingrese solo números |
+| Error, el documento no es correcto | El valor ingresado no es texto válido | Asegúrese de digitar un número válido |
+| Error, la placa debe tener exactamente 6 caracteres | La placa no tiene 6 caracteres | Asegúrese de que la placa tenga exactamente 6 caracteres |
+| Error, la placa debe tener 3 letras y luego 3 números | La placa no cumple con el formato LLLNNN | Ingrese una placa como ABC123 |
+| Error, la placa no es correcta | El valor ingresado no es una cadena válida | Verifique que la placa cumpla el formato requerido |
+| Error, el documento ya está registrado en el sistema | Documento duplicado | Ingrese uno que no esté registrado |
+
+#### 🔹 Módulo 2: Ingresar vehículo
+
+| Mensaje de error | Razón | Solución sugerida |
+|------------------|-------|-------------------|
+| Error, el documento no se encuentra registrado en el sistema | Documento no está en la base de datos | Regístrese primero |
+| Error, la placa no se encuentra en el sistema | La placa no coincide con la registrada para el documento | Verifique que haya escrito correctamente la placa |
+| El parqueadero está lleno. No hay espacios disponibles | Todos los espacios están ocupados | Espere a que se libere un espacio |
+
+#### 🔹 Módulo 3: Retirar vehículo
+
+| Mensaje de error | Razón | Solución sugerida |
+|------------------|-------|-------------------|
+| Error, el documento no se encuentra registrado en el sistema | El documento no existe en la base de datos | Verifique si el usuario fue registrado e ingresado |
+| Error, la placa no se encuentra en el sistema | La placa no coincide con el documento | Ingrese la placa correctamente |
+| Favor verificar los datos | Documento o placa inválidos | Revise los datos y vuelva a intentarlo |
+
+####  🔹 Módulo 4: Administrador
+
+| Mensaje de error | Razón | Solución sugerida |
+|------------------|-------|-------------------|
+| Usuario o contraseña incorrectos | Credenciales inválidas | Verifique que estén bien escritos |
+| Opción inválida --> Seleccione 1-8 | Número fuera de rango o caracter inválido | Ingrese solo un número entre 1 y 8 |
+| No hay vehículos retirados para calcular promedio | No hay registros de salida | Retire al menos un vehículo antes de usar esta opción |
 
 ---
