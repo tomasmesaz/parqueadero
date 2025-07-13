@@ -96,7 +96,7 @@ Si alguno de los datos no cumple con los requisitos, el sistema mostrará un men
 
 Una vez el registro sea exitoso, podrá proceder con el ingreso del vehículo.
 
-![Validación de registro](../imagenes/validacion%20registro.png)
+![Validación de registro](../imagenes/Validacion%20registro.png)
 
 
 Presione la tecla Enter para salir de este módulo y volver al menú principal.
@@ -108,7 +108,7 @@ Al seleccionar la opción 2 en el menú principal, se accede al módulo de Ingre
 - Documento de identidad del usuario registrado
 - Placa del vehículo
   
-![Ingreso de vehículo](../imagenes/ingreso%20de%20vehiculo.png)
+![Ingreso de vehículo](../imagenes/Ingreso%20de%20vehiculo.png)
 
 Si los datos coinciden con un registro existente y hay espacio disponible, el vehículo será ingresado al parqueadero.
 
