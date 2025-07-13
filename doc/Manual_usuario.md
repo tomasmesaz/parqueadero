@@ -107,10 +107,14 @@ Al seleccionar la opción 2 en el menú principal, se accede al módulo de Ingre
 
 - Documento de identidad del usuario registrado
 - Placa del vehículo
+  
+![Ingreso de vehículo](../imagenes/ingreso%20de%20vehiculo.png)
 
 Si los datos coinciden con un registro existente y hay espacio disponible, el vehículo será ingresado al parqueadero.
 
 A continuación, se mostrará un tiquete en pantalla con la información del ingreso, incluyendo hora, placa, nombre del usuario y número del espacio asignado.
+
+![Tiquete de ingreso](../imagenes/Tiquete%20de%20ingreso.png)
 
 Si no hay espacios disponibles o los datos no coinciden, se mostrará un mensaje de advertencia.
 
@@ -123,6 +127,8 @@ Al seleccionar la opción 3 en el menú principal, se accede al módulo de Retir
 - Documento del usuario
 - Placa del vehículo
 
+  ![Retiro de vehículo](../imagenes/Retiro%20de%20vehiculo.png)
+
 Asegúrese de ingresar los mismos datos utilizados al momento del ingreso.
 
 Si los datos son correctos, el sistema calculará automáticamente el tiempo que el vehículo estuvo en el parqueadero y mostrará una factura con:
@@ -131,6 +137,8 @@ Si los datos son correctos, el sistema calculará automáticamente el tiempo que
 - Tiempo total de permanencia
 - Valor a pagar
 - Espacio liberado
+
+  ![Factura de salida](../imagenes/Factura%20de%20salida.png)
 
 Presione la tecla Enter para salir de este módulo y volver al menú principal.
 
