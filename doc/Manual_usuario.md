@@ -85,6 +85,8 @@ Al seleccionar la opción 1 en el menú principal, se ingresa al módulo de Regi
 - Documento de identidad
 - Placa del vehículo
 
+  
+
 Para completar el registro correctamente, asegúrese de:
 - Ingresar un nombre y apellido con al menos tres letras, sin números ni símbolos.
 - Digitar un documento compuesto solo por números, con una longitud entre 3 y 15 dígitos.
