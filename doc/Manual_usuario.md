@@ -1,5 +1,5 @@
 
-# Manual de Usuario - UdeA iPark 
+# Manual de usuario - UdeA iPark 
 
 Sistema de gestión de parqueadero
 
