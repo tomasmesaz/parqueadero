@@ -1,3 +1,7 @@
+import Datos
+import time 
+from datetime import datetime
+
 def validar_placa(dic:dict, documento:str, placa:str)->bool:
     validar = True
     global error
@@ -7,7 +11,7 @@ def validar_placa(dic:dict, documento:str, placa:str)->bool:
 
     if documento in llaves:
         clave = dic[documento]['Placa']
-        if clave == placa:
+        if clave.upper() == placa.upper():
             validar = True
         else:
             validar = False
@@ -18,12 +22,9 @@ def validar_placa(dic:dict, documento:str, placa:str)->bool:
     return validar
 
 def ingresar_vehiculo(): 
-    import Datos
-    import time
-    from datetime import datetime
-
+    
     documento = input('Ingresar documento'.ljust(18) + '--> ')
-    placa = (input('Ingresar placa'.ljust(18)+'--> ')).upper()
+    placa = input('Ingresar placa'.ljust(18)+'--> ')
     
     if validar_placa(Datos.dicUsuarios, documento, placa):
         print('\nDocumento y placa correctos, bienvenido al sistema')
@@ -44,10 +45,10 @@ def ingresar_vehiculo():
             print('\n' + '='*64)
             print('Tiquete de ingreso'.center(64))
             print('='*64)
-            print(f'Placa: {placa}')
-            print(f'Usuario: {Datos.dicUsuarios[documento]['Nombre']} {Datos.dicUsuarios[documento]['Apellido']}')
-            print(f'Hora de entrada: {Datos.dicUsuarios[documento]['Hora ingreso impresión']}')
-            print(f'Espacio asignado: {Datos.dicUsuarios[documento]['Espacio']}')
+            print(f'Placa: {placa.upper()}')
+            print(f'Usuario: {Datos.dicUsuarios[documento]["Nombre"]} {Datos.dicUsuarios[documento]["Apellido"]}')
+            print(f'Hora de entrada: {Datos.dicUsuarios[documento]["Hora ingreso impresión"]}')
+            print(f'Espacio asignado: {Datos.dicUsuarios[documento]["Espacio"]}')
             print('='*64)
     
     else:
