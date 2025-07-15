@@ -1,3 +1,6 @@
+import time
+import Datos
+
 def validar_datos(nombre:str, apellido:str, documento:str, placa:str)->bool:
     validar = True
     global error
@@ -66,7 +69,7 @@ def guardar_usuario (dic:dict, nombre: str, apellido:str, documento:str, placa:s
                 'Nombre': nombre,
                 'Apellido': apellido,
                 'Documento': documento,
-                'Placa': placa
+                'Placa': placa.lower() 
             }
             return True
     else:
@@ -74,8 +77,7 @@ def guardar_usuario (dic:dict, nombre: str, apellido:str, documento:str, placa:s
         return False
 
 def registrar_usuario():
-    import time
-    import Datos
+    
 
     # Pedir datos
     nombre = input('Ingresar nombre'.ljust(18)+'--> ')
