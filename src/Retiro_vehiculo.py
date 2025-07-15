@@ -1,11 +1,12 @@
-def retirar_vehiculo():
-    import Datos
-    import time
-    from datetime import datetime
-    import Ingreso_vehículo as ingreso
+import Datos
+import time
+from datetime import datetime
+import Ingreso_vehiculo as ingreso
 
+def retirar_vehiculo():
+    
     documento = input('Ingresar documento'.ljust(18) + '--> ')
-    placa = (input('Ingresar placa'.ljust(18)+'--> ')).upper()
+    placa = input('Ingresar placa'.ljust(18)+'--> ')
 
     if ingreso.validar_placa(Datos.dicUsuarios, documento, placa):
         print('\nDocumento y placa correctos, bienvenido al sistema')
