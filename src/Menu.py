@@ -1,3 +1,5 @@
+ESPACIADO = 64
+
 def limpiar_consola():
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -34,7 +36,6 @@ def imprimir_menu(nombre):
 ]
     
     fecha, hora = fecha_hora()
-    ESPACIADO = 64
     print('*'*ESPACIADO)
     for linea in carro:
         print(linea.center(ESPACIADO))
@@ -52,8 +53,8 @@ def imprimir_menu(nombre):
 
 import Datos
 import Registro_usuario as registro
-import Ingreso_vehículo as ingreso
-import Retiro_vehículo as retiro
+import Ingreso_vehiculo as ingreso
+import Retiro_vehiculo as retiro
 import Administrador as admin
 
 while True:
