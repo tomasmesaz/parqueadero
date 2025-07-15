@@ -107,7 +107,7 @@ def lista_usuarios():
         else:
             estado = 'Solo registrado'
         
-        print('|', documento.center(15), '|'.center(3), (nombre+' '+apellido).center(25), '|', placa.center(8), '|'.center(3), estado, sep = '')
+        print('|', documento.center(15), '|'.center(3), (nombre+' '+apellido).center(25), '|', placa.center(8).upper(), '|'.center(3), estado, sep = '')
 
 #Opcion 7: Vehículo con tiempo de parqueo máximo y mínimo
 def vehiculo_max_min_tiempo():
@@ -118,6 +118,10 @@ def vehiculo_max_min_tiempo():
             tiempo = int(usuario['Tiempo estancia segundos'])
             vehiculos_con_tiempo.append([tiempo, usuario])
 
+    if not vehiculos_con_tiempo:
+        print('\nNo hay vehículos con tiempo de parqueo registrado')
+        return
+
     vehiculos_con_tiempo.sort()
 
     vehiculo_min = vehiculos_con_tiempo[0][1]
@@ -127,14 +131,14 @@ def vehiculo_max_min_tiempo():
 
     print(f'\nVehículo con mayor tiempo de parqueo')
     print('-' * 40)
-    print(f'Placa: {vehiculo_max['Placa']}')
+    print(f'Placa: {vehiculo_max['Placa'].upper()}')
     print(f'Tiempo: {tiempo_max // 3600}h {(tiempo_max % 3600) // 60}min')
     print(f'Ingreso: {vehiculo_max['Hora ingreso impresión']}')
     print(f'Salida: {vehiculo_max['Hora salida impresión']}')
     
     print(f'\nVehículo con menor tiempo de parqueo')
     print('-' * 40)
-    print(f'Placa: {vehiculo_min['Placa']}')
+    print(f'Placa: {vehiculo_min['Placa'].upper()}')
     print(f'Tiempo: {tiempo_min // 3600}h {(tiempo_min % 3600) // 60}min')
     print(f'Ingreso: {vehiculo_min['Hora ingreso impresión']}')
     print(f'Salida: {vehiculo_min['Hora salida impresión']}')
