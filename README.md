@@ -91,4 +91,69 @@ El presupuesto de este proyecto, teniendo en cuenta que el salario mínimo legal
 | Preparación de sustentación y entrega final             | 2 h              | $12.378        |
 | **Total**                                | **50 h**         | **$309.450**   |
 
+# Plan de Versionado del Proyecto "Parqueadero UdeaIpark"
+
+Este documento detalla las versiones del software desde su inicio hasta la entrega final, destacando los avances y correcciones realizadas en cada fase del desarrollo.
+
+---
+
+## **Versión 0.1 - Borrador inicial (31 de mayo de 2025)**
+
+**Descripción:**
+- Primera versión preliminar del software, desarrollada de manera individual para cada módulo.
+- El objetivo principal fue establecer un esquema general del menú y realizar funciones de validación.
+
+**Cambios importantes:**
+- Creación de un esquema del menú general.
+- Desarrollo inicial de módulos aislados (validación de datos).
+- Implementación parcial del módulo de ingreso de vehículos (falta el ingreso de usuario).
+- Cálculo preliminar del cobro, pero sin integración.
+- El código aún no estaba completamente integrado entre módulos.
+
+---
+
+## **Versión 0.2 - Mejora en Modularización (27 de junio de 2025)**
+
+**Descripción:**
+- Mejora en la modularización y la integración de los módulos. 
+- El sistema comenzó a ser más cohesivo, aunque aún presentaba errores en la impresión y el estilo.
+
+**Cambios importantes:**
+- Se consolidaron los módulos de entrada, validación y administración.
+- El código corrió con errores de impresión que fueron identificados.
+- Estilo del programa no estaba completamente verificado.
+- El módulo de administración fue completado.
+- Se definió la forma en la que se almacenarían los datos (consolidación).
+- Se integró la generación de facturas, aunque con algunos problemas en el formato de impresión.
+
+---
+
+## **Versión 0.3 - Pruebas y Correcciones Iniciales (12 de julio de 2025)**
+
+**Descripción:**
+- Se realizaron pruebas y se corrigieron errores menores, con énfasis en el estilo visual y la consistencia en la impresión de datos.
+
+**Cambios importantes:**
+- Se corrigieron errores menores relacionados con la impresión de datos y el estilo del programa.
+- Se aseguró que el programa tuviera una apariencia consistente y profesional.
+- Se verificó la correcta impresión de los datos en las diferentes secciones del sistema.
+- Se creó y completó el manual del usuario.
+
+---
+
+## **Versión Final 1.0 - Versión definitiva para entrega (15 de julio de 2025)**
+
+**Descripción:**
+- Versión definitiva del software para la evaluación final, con todas las funcionalidades completas y funcionales.
+
+**Cambios importantes:**
+- Reestructuración interna del código, mejorando su organización y eficiencia.
+- Corrección en el cálculo de los vehículos con mayor y menor tiempo de estancia en el parqueadero.
+- El software es completamente funcional, permitiendo:
+  - Registro de usuarios.
+  - Ingreso y retiro de vehículos.
+  - Generación de reportes administrativos.
+- La integración entre los módulos fue completada, y todas las funcionalidades se probaron con éxito.
+- El sistema ahora permite la gestión adecuada de los vehículos y usuarios, y genera reportes correctamente.
+
 
