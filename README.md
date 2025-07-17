@@ -91,13 +91,11 @@ El presupuesto de este proyecto, teniendo en cuenta que el salario mínimo legal
 | Preparación de sustentación y entrega final             | 2 h              | $12.378        |
 | **Total**                                | **50 h**         | **$309.450**   |
 
-# Plan de Versionado del Proyecto "Parqueadero UdeaIpark"
-
-Este documento detalla las versiones del software desde su inicio hasta la entrega final, destacando los avances y correcciones realizadas en cada fase del desarrollo.
-
 ---
 
-## **Versión 0.1 - Borrador inicial (31 de mayo de 2025)**
+## Versiones del proyecto
+
+### **Versión 0.1 - Borrador inicial (31 de mayo de 2025)**
 
 **Descripción:**
 - Primera versión preliminar del software, desarrollada de manera individual para cada módulo.
@@ -110,9 +108,7 @@ Este documento detalla las versiones del software desde su inicio hasta la entre
 - Cálculo preliminar del cobro, pero sin integración.
 - El código aún no estaba completamente integrado entre módulos.
 
----
-
-## **Versión 0.2 - Mejora en Modularización (27 de junio de 2025)**
+### **Versión 0.2 - Mejora en modularización (27 de junio de 2025)**
 
 **Descripción:**
 - Mejora en la modularización y la integración de los módulos. 
@@ -126,9 +122,7 @@ Este documento detalla las versiones del software desde su inicio hasta la entre
 - Se definió la forma en la que se almacenarían los datos (consolidación).
 - Se integró la generación de facturas, aunque con algunos problemas en el formato de impresión.
 
----
-
-## **Versión 0.3 - Pruebas y Correcciones Iniciales (12 de julio de 2025)**
+### **Versión 0.3 - Pruebas y correcciones iniciales (12 de julio de 2025)**
 
 **Descripción:**
 - Se realizaron pruebas y se corrigieron errores menores, con énfasis en el estilo visual y la consistencia en la impresión de datos.
@@ -139,9 +133,7 @@ Este documento detalla las versiones del software desde su inicio hasta la entre
 - Se verificó la correcta impresión de los datos en las diferentes secciones del sistema.
 - Se creó y completó el manual del usuario.
 
----
-
-## **Versión Final 1.0 - Versión definitiva para entrega (15 de julio de 2025)**
+### **Versión Final 1.0 - Versión final actual (15 de julio de 2025)**
 
 **Descripción:**
 - Versión definitiva del software para la evaluación final, con todas las funcionalidades completas y funcionales.
